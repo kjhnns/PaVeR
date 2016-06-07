@@ -1,0 +1,23 @@
+/* bootstrap gMaps fix */
+#mapCanvas img {
+	max-width: none;
+}
+
+div#main {
+	padding: 20px;
+}
+	
+span[data-toggle=popover] { cursor: pointer; }
+	
+body {
+	padding-top:40px;
+}
+
+div#debugConsole {
+	background: #000; color: #fff;
+	position:absolute;
+	z-index:-99;padding-bottom: 80px;
+	overflow: scroll;
+	width: 100%;
+	min-height: 100%;
+}
